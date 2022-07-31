@@ -14,3 +14,6 @@ stocks = {
 entry = input("Type ticker symbol: ")
 if entry in stocks:
     print ("Ticker symbol: " + entry)
+    print ("Share value: " + str(stocks[entry]) + "\n")
+else:
+  print("Ticker not found.")
